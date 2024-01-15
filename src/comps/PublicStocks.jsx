@@ -2,10 +2,12 @@ import React from 'react';
 import stockData from './stockData';
 import { useParams } from 'react-router-dom';
 
-const Stock = () => {
+console.log(stockData);
+
+const PublicStocks = () => {
 const { symbol } = useParams();
 
-const stock = stockData.find((stock) => stock.symbol === symbol);
+const stock = stockData.filter((stock) => stock.symbol === symbol)
 
 if (!stock) {
   return <div>stock not found</div>; 
@@ -24,4 +26,4 @@ return (
 );
 }
  
-export default Stock;
+export default PublicStocks;

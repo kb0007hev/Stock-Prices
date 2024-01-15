@@ -1,9 +1,10 @@
 import React from 'react';
 import stockData from './stockData'
 
-const Dashboard = () => {
+const LocalStocks = () => {
 
     const stocks = stockData.map((data) => {
+        
         return (
             <Link key="data.symbol" to={`/stocks/${data.symbol}`}>
                 <li>{data.name}</li>
@@ -21,4 +22,15 @@ const Dashboard = () => {
      );
 }
  
-export default Dashboard;
+export default LocalStocks;
+
+
+
+
+
+
+
+
+
+
+
