@@ -1,9 +1,9 @@
-const stocks = () => {
+import React from 'react';
+
+const Stock = () => {
     return ( 
-       <div className="stocks">
-        
-       </div>
+        <h1>Stock Page</h1>
      );
 }
  
-export default stocks;
+export default Stock;
