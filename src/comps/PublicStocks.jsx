@@ -20,8 +20,8 @@ const PublicStocks = () => {
   // ));
 
   return (
-    <Link to={`/publicStocks/${item.symbol}`}>{item.name}
- 
+    // <Link to={`/publicStocks/${item.symbol}`}>{item.name}
+        <div> 
       <h1>{stock.name}</h1>
       <p>Symbol: {stock.symbol}</p>
       <p>Last Price: {stock.lastPrice}</p>
@@ -31,7 +31,9 @@ const PublicStocks = () => {
         {otherStocks}
       </div> */}
 
-    </Link>
+      </div> 
+      
+    // </Link>
   );
 };
 export default PublicStocks;
