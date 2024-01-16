@@ -1,8 +1,5 @@
 #  STOCK PRICES
 
-### Website
->  PENDING
-
 ### MOTIVATION
 
 > This is a Per Scholas Project I built as part of a school project.
@@ -11,7 +8,7 @@
 > HTML, CSS, Javascript, REACT, and Fetch was used to build this project. 
 
 ### DESCRIPTION
-> This was a project aimed toward practicing API HTTP get requests in order to obtain data from an outside server. 
+> This was a project aimed toward practicing API HTTP get requests in order to obtain data from a local server, and an outside server. 
 
 
 ### CREDITS
